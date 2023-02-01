@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>OFitness</title>
 </head>
-<body>
+<body data-aos="zoom-in-down">
     <div class="App">
         <h1 class='logo'>OFitness</h1>
         <div class='itens'>
           <p>Home</p>
           <p>Fitness</p>
-          <p>Guides</p>
-          <p>Help</p>
 
-          <button class='button-sign'>Sign Up</button>
+          <a><button class='button-sign'>Contato</button></a>
         </div>
 
         <div class="frase">
@@ -29,10 +28,17 @@
           Nada se consegue sem trabalho!</h4>
         </div>
 
-        <button class='button-sign2'>Sign Up</button>
+        <a href="inscrição.html" >
+          <button class='button-sign2'>Inscreva-se</button>
+        </a>
 
         <img class="pessoa-img" src="./img/black woman_sport 1.png" alt="pessoa correndo">
 
         <img class="vetor" src="./img/Pilates-amico 1 (1).png" alt="vetor-pilates">
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 </body>
 </html>

@@ -1,0 +1,5 @@
+let capturando = "";
+
+function capturar(){
+
+}

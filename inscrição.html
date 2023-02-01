@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Inscreva-se</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-aos="fade-up">
+    <div class="inscrição">
+        <img class="img-pessoas" src="./img/Coaches-pana 1.png" alt="professores">
+        <p class="frase-formulario">O primeiro passo, preencher esse formulário de inscrição.</p>
+    </div>
+
+    <div class="formulario">
+        <form action="">
+            <h4>Informações para inscrição</h4>
+            <hr>
+            <div>
+                <label for="nome">Nome: </label><br>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="idade">Idade:</label><br>
+                <input id="valor" type="text">
+                <p id="valorDigitado"></p>
+            </div>
+
+            <div>
+                <label for="peso">Peso: </label><br>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="altura">Altura: </label><br>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="msg">Observações</label><br>
+	            <textarea id="msg" name="msg" rows="4" cols="40"></textarea>
+            </div>
+
+            <div>
+                <button onclick="capturar()" class="enviar">Enviar</button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="script.js"></script>
+</body>
+</html>
