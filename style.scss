@@ -1,0 +1,105 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    margin: 20px;
+    padding: 20px;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.25));
+}
+
+.itens{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap-reverse;
+    position: relative;
+    top: -80px;
+    font-size: 18px;
+}
+.button-sign{
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #FF6060;
+    color: white;
+    cursor: pointer;
+    filter: drop-shadow(6px 6px 5px rgba(0, 0, 0, 0.25));
+}
+.button-sign:hover{
+    opacity: 0.8;
+}
+.button-sign:active{
+    opacity: 0.5;
+}
+.frase{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 7px;
+    font-size: 25px;
+    position: absolute;
+    width: 560px;
+    height: 579px;
+    left: 318px;
+    top: 159px;
+
+    filter: drop-shadow(9px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.texto{
+    position: absolute;
+    width: 419px;
+    height: 141px;
+    left: 319px;
+    top: 360px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130.69%;
+
+    color: #000000;
+}
+.button-sign2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+    gap: 10px;
+    position: absolute;
+    left: 319px;
+    top: 480px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #FF6060;
+    color: white;
+    cursor: pointer;
+}
+.button-sign2:hover{
+    opacity: 0.8;
+}
+.button-sign2:active{
+    opacity: 0.5;
+}
+.pessoa-img{
+    position: absolute;
+    width: 413.33px;
+    height: 620px;
+    left: 800px;
+    top: 100px;
+
+}
+.vetor{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 70px;
+    top: 384px;
+}
