@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Contato</title>
 </head>
-<body>
-    <form action="https://formspree.io/f/mzbqdnnk" method="post" enctype="multipart/form-data">
+<body data-aos="zoom-in">
+    <form id="formulario-contato" action="https://formspree.io/f/mzbqdnnk" method="post" enctype="multipart/form-data">
     
         <div class="container-contato">
             <h1 class="contato">Entre em contato</h1>
@@ -33,5 +33,10 @@
         </div>
         
     </form>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
