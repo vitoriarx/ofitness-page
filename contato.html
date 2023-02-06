@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Contato</title>
 </head>
 <body>
-    <form action="https://formsubmit.co/el/yicego" method="POST">
-
+    <form action="https://formspree.io/f/mzbqdnnk" method="post" enctype="multipart/form-data">
+    
         <div class="container-contato">
             <h1 class="contato">Entre em contato</h1>
-    
-            <div>
-                <label class="label-contato" for="">Nome:</label><br>
-                <input class="input-contato" type="text" placeholder="Seu nome">
-            </div>
-    
-            <div>
-                <label class="label-contato" for="">E-mail:</label><br>
-                <input type="email" name="email" placeholder="Endereço de e-mail">
-            </div>
-    
-            <div>
-                <label class="label-contato" for="">Número:</label><br>
-                <input class="input-contato" type="text" placeholder="Seu Número">
-            </div>
-    
-            <button class="button-contato" type="submit">Send</button>
+        <div>
+            <label class="label-contato" for="">Nome:</label><br>
+            <input class="input-contato" type="text" placeholder="Nome" name="nome" required>
         </div>
+            
+        <div>
+            <label class="label-contato" for="">E-mail:</label><br>
+            <input class="input-contato" type="email" placeholder="Email" name="email" required>
+        </div>
+            
+        <div>
+            <label class="label-contato" for="">Número:</label><br>
+            <input type="text" placeholder="Numero" name="numero">
+        </div>
+            
 
+            <input class="button-contato" type="submit" required>
+        </div>
+        
     </form>
-    
 </body>
 </html>
