@@ -195,4 +195,115 @@ textarea{
   align-items: center;
 }
 
-/*# sourceMappingURL=style.css.map */
+@media (max-width: 320px) {
+  .pessoa-img{
+    position: relative;
+    top: -580px;
+    left: 10px;
+  }
+  .vetor{
+    display: none;
+  }
+  .frase{
+    position: relative;
+    top: -100px;
+    left: 50px;
+  }
+  .texto{
+    position: relative;
+    top: -480px;
+    left: 50px;
+    width: 300px;
+  }
+  .button-sign2{
+    position: relative;
+    top: -500px;
+    left: 50px;
+  }
+  .itens{
+    position: relative;
+    top: -180px;
+    left: 100px;
+    gap: 50px;
+  }
+  .button-sign{
+    position: relative;
+    top: 130px;
+    left: 10px;
+  }
+}
+@media (max-width: 375px){
+  .pessoa-img{
+    position: relative;
+    top: -690px;
+    left: 10px;
+  }
+  .vetor{
+    display: none;
+  }
+  .frase{
+    position: relative;
+    top: -100px;
+    left: 50px;
+  }
+  .texto{
+    position: relative;
+    top: -480px;
+    left: 50px;
+    width: 300px;
+  }
+  .button-sign2{
+    position: relative;
+    top: -500px;
+    left: 50px;
+  }
+  .itens{
+    position: relative;
+    top: -85px;
+    left: 190px;
+    gap: 10px;
+  }
+  .button-sign{
+    position: relative;
+    top: 40px;
+    left: -140px;
+  }
+}
+@media(max-width: 425px){
+  .pessoa-img{
+    position: relative;
+    top: -400px;
+    left: -10px;
+  }
+  .vetor{
+    display: none;
+  }
+  .frase{
+    position: relative;
+    top: -10px;
+    left: 50px;
+  }
+  .texto{
+    position: relative;
+    top: -390px;
+    left: 50px;
+    width: 300px;
+  }
+  .button-sign2{
+    position: relative;
+    top: -400px;
+    left: 50px;
+  }
+  .itens{
+    position: relative;
+    top: -85px;
+    left: 130px;
+    gap: 10px;
+  }
+  .button-sign{
+    position: relative;
+    top: 40px;
+    left: -140px;
+  }
+}
+
