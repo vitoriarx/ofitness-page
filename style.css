@@ -1,7 +1,10 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-
+.fitness{
+  color: black;
+  text-decoration: none;
+}
 .logo {
   margin: 20px;
   padding: 20px;
@@ -132,7 +135,7 @@
   gap: 30px;
 }
 label{
-  font-family: 'Poppins';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
