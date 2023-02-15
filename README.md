@@ -1,3 +1,3 @@
 # ofitness-page
 
-https://vitoriarx.github.io/ofitness-page/
+ofitness.netlify.app
